@@ -21,8 +21,9 @@ const isBasic = (req, res, next) => {
   }
 
   const authority = {
-    id: token.id,
-    name: token.name,
+    id: token._id,
+    nickname: token.nickname,
+    role: token.role,
   };
 
   req.authority = authority;

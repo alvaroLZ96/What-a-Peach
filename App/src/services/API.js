@@ -14,5 +14,5 @@ const apiHeaders = {
 export const API = axios.create({
   headers: apiHeaders,
   timeout: 6000,
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://what-a-peach-production.up.railway.app/api",
 });
